@@ -1,0 +1,148 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.no-highlights-message {
+  font-size: 24px;
+  color: #999;
+  align-self: center;
+  margin: auto;
+}
+
+.highlights-container {
+  width: 100%;
+}
+
+.highlights-container h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.highlight-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.highlight-item {
+  background-color: #fefefe;
+  border-radius: 3px;
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-right: 3rem;
+}
+
+.highlight-item-img {
+  height: 350px;
+  width: 100%;
+}
+
+.highlight-item-info {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.highlight-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.highlight-item-title {
+  align-self: stretch;
+  font-size: 32px;
+  color: black;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.highlight-item-default-img {
+  width: 100%;
+  height: 24.125rem;
+  align-self: stretch;
+  background-color: #6DA5F9;
+}
+
+.highlight-item-edit {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.highlight-item-desc {
+  align-self: stretch;
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+.highlight-item-date-container {
+  display: flex;
+  gap: 6px;
+}
+
+.highlight-item-published {
+  color: #747474;
+  align-self: stretch;
+  font-size: 14px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.highlight-item-date {
+  color: #747474;
+  align-self: stretch;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.highlight-item-member {
+  color: black;
+  font-size: 14px;
+  height: 30px;
+  margin: 0px;
+}
+
+.highlight-item-tag-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 33px;
+  align-self: stretch;
+}
+
+.highlight-item-tagged {
+  margin: 0px;
+  font-size: 14px;
+  align-self: stretch;
+}
+
+.highlight-item-tag-icons {
+  position: relative;
+}
+
+.highlight-item-person-icon {
+  position: relative;
+  color: #747474;
+}

@@ -1,0 +1,78 @@
+
+.dashboard-organizationDashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.header-organizationDashboard {
+  flex: 0 0 60px; 
+}
+
+.main-content-organizationDashboard {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dashboard-title-organizationDashboard {
+  font-size: 48px;
+  margin-bottom: 40px; 
+}
+
+
+.button-container-organizationDashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+}
+
+.allBoxContainers-organizationDashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+.large-button-organizationDashboard {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 40px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  font-size: 40px;
+  
+}
+
+
+.large-button-organizationDashboard:hover {
+  box-shadow: 10px 10px 20px #aaa, -10px -10px 20px #fff;
+}
+
+
+.large-button-organizationDashboard:active {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 5px #aaa, -2px -2px 5px #fff; 
+}

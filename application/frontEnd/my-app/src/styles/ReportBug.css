@@ -1,0 +1,92 @@
+.report-bug-container {
+    min-height: 100vh;
+    background-color: white;
+  }
+  
+  .report {
+      padding: 50px;
+      padding-bottom: 15%;
+      max-width: 600px;
+      margin: auto;
+    }
+    
+    form h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    form .input-box {
+      margin-top: 20px;
+    }
+    
+    .input-box .field {
+      width: 100%;
+      height: 25px;
+      background: transparent;
+      border: 2px solid #ddd;
+      outline: none;
+      border-radius: 6px;
+      padding: 15px;
+      font-size: 16px;
+      color: #333;
+      margin-top: 8px;
+    }
+    
+    .input-box .field.mess {
+      height: 200px;
+      resize: none;
+    }
+    
+    .input button {
+      height: 55px;
+      background: #6a6a6c;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 500;
+      margin-top: 25px;
+      transition: .5s;
+    }
+    
+    form button:hover {
+      background: lightblue;
+    }
+
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    background: rgb(97, 205, 241);
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background: rgb(125, 125, 244);
+  }

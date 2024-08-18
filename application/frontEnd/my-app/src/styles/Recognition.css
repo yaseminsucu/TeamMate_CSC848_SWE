@@ -1,0 +1,129 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.no-recognitions-message {
+  font-size: 24px;
+  color: #999;
+  align-self: center;
+  margin: auto;
+}
+
+.recognitions-container {
+  width: 100%;
+}
+
+.recognitions-container h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.recognition-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.recognition-item {
+  background-color: #FEFEFE;
+  border-radius: 3px;
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.20);
+  text-align: left;
+  width: 240px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  cursor: pointer;
+}
+
+.recognition-item:hover {
+    transform: scale(1.05);
+}
+
+.recognition-item-info {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.recognition-item-img {
+  height: 120px;
+  width: 100%;
+}
+
+.recognition-item-title {
+  align-self: stretch;
+  font-size: 20px;
+  color: black;
+  margin: 0px;
+}
+
+.recognition-item-desc {
+  align-self: stretch;
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+  height: 60px;
+}
+
+.recognition-details-top-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.recognition-details-edit {
+    padding: 3px 7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.recognition-details-add {
+    padding: 3px 7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.recognition-details-share {
+  margin-top: 40px;
+  padding: 3px 7px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+}
+
+.recognition-details-share-icon {
+  padding-right: 6px;
+  align-items: center;
+}

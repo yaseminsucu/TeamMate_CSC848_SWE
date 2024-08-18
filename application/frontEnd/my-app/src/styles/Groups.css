@@ -1,0 +1,115 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.no-groups-message {
+    font-size: 24px;
+    color: #999;
+    align-self: center;
+    margin: auto;
+}
+
+.groups-container {
+    width: 100%;
+}
+
+.memberLogo{
+    color: #6927FF;
+}
+
+.groups-container h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+.groups-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.groups-item {
+    background-color: #FEFEFE;
+    border-radius: 3px;
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.20);
+    text-align: left;
+    width: 360px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    cursor: pointer;
+}
+
+.groups-item:hover {
+    transform: scale(1.05);
+}
+
+.groups-item-img {
+    height: 150px;
+    width: 100%;
+    background-color: #454EA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groups-item-info {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.groups-item-title {
+    align-self: stretch;
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+}
+
+.groups-item-desc {
+    align-self: stretch;
+    font-size: 14px;
+    color: black;
+    margin: 0px;
+    height: 95px;
+}
+
+.groups-item-date {
+    text-align: right;
+    color: #747474;
+    align-self: center;
+    font-size: 14px;
+    margin: 0px;
+
+}
+
+.groups-item-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.groups-item-date-container {
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+}
+
+.groups-item-access {
+    margin: 0px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: white;
+    padding: 1px 4px;
+}

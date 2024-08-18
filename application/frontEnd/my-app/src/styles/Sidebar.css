@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.maincontent-sidebar {
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  position: fixed;
+  width: 10%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.title-sidebar {
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.top-section-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
+
+.bottom-section-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.org-container {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.active-org {
+  background: #FFFFFFBF;
+}
+
+.active-indicator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+}
+
+.button-sidebar-find {
+  display: flex;
+  height: 2.75rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  cursor: pointer;
+  background: var(--TeamMate-Brand-Color-complement-4, #280082);
+}
+
+.button-sidebar-org {
+  display: flex;
+  height: 2.75rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  cursor: pointer;
+  background: var(--TeamMate-Brand-Color-complement-4, #505050);
+  color: white;
+}
+
+.button-sidebar-org:hover {
+  transform: scale(1.05);
+}
+
+.button-sidebar {
+  display: flex;
+  height: 2.75rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  cursor: pointer;
+  background: var(--TeamMate-Brand-Color-accent, #6927ff);
+}
+
+.button-sidebar:hover {
+  transform: scale(1.05);
+}
+
+.button-sidebar:active {
+  transform: scale(1.02);
+}
+
+.text-sidebar {
+  margin: 0;
+  font-size: 14px;
+  color: #000000;
+  width: 100%;
+}
+
+.sidebar-population {
+  width: 100%;
+}
+
+.iconWhite {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .maincontent-sidebar {
+    width: 20%;
+  }
+
+  .title-sidebar {
+    font-size: 20px;
+  }
+
+  .find-text-sidebar {
+    font-size: 18px;
+  }
+}
